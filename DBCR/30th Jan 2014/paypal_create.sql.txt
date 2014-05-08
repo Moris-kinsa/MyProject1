@@ -1,0 +1,32 @@
+CREATE TABLE sgs_paypal_pay_grp
+  ( payment_group_id VARCHAR2(40),
+    payer_id VARCHAR2(40),
+    payer_email      VARCHAR2(40),
+    payer_status         VARCHAR2(40),	
+	payer_name VARCHAR2(40),
+    payer_country_code VARCHAR2(40),
+    payer_biz VARCHAR2(40),
+    buyer_Email VARCHAR2(40),	
+	CONSTRAINT PK_SGS_PAYPAL_PG_ID PRIMARY KEY(payment_group_id)
+   );
+   
+   
+   
+   CREATE TABLE SGS_paypal_status
+  ( status_id VARCHAR2(40),
+    transaction_id VARCHAR2(40),
+    payment_Req_id      VARCHAR2(40),
+    payment_type         VARCHAR2(40),	
+	payment_date date,  
+	gross_amt number(10,2),
+	tax_amt number(10,2),
+	fraud_Details VARCHAR2(40),
+	payment_status VARCHAR2(40),
+	pending_reason VARCHAR2(40),
+	reason_code VARCHAR2(40),
+	hold_decision VARCHAR2(40),
+	billing_agree_id VARCHAR2(40),
+	CONSTRAINT PK_SGS_PAYPAL_STATUS_ID PRIMARY KEY(status_id)
+   );
+   
+   

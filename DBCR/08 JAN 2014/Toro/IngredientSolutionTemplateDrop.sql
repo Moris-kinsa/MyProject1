@@ -1,0 +1,7 @@
+/* roll back command in case of any issue for Switch_A, Swtich_B and Staging,PUB schemas*/
+DROP TABLE SGS_PROD_OTHING;
+DROP TABLE SGS_OTHING_CONTAINER;
+DROP TABLE SGS_OTHING_LIST;
+DROP TABLE SGS_OTHING_DETAILS;
+DROP TABLE SGS_OTHING_SITES;
+commit;

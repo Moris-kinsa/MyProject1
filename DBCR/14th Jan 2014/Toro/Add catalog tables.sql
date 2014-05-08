@@ -1,0 +1,5 @@
+/* This script will run on SWITCH_A,SWITCH_B and STAGING */
+Drop Table SGS_PRD_CHLDSKU_RELN;
+Drop Table SGS_PRD_CHLDSKU_CONTAINER;
+Drop Table SGS_PRD_CHLDSKU_LIST;
+CREATE TABLE SGS_SKU_SITES(SKU_ID varchar2(40),SITE_ID varchar2(40));

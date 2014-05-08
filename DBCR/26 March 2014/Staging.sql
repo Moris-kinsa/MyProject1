@@ -1,0 +1,1 @@
+alter table  sgs_address add (state_address varchar2(40))
