@@ -1,3 +1,0 @@
-ALTER TABLE SGS_COUNTRIES ADD ISOcode varchar2(30) NULL;
-commit;	 
-

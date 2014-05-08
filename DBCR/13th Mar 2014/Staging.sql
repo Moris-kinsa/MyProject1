@@ -1,1 +1,0 @@
-ALTER TABLE SGS_DPS_USER ADD (logged_in NUMBER(1,0) , migrated_account NUMBER(1,0) );

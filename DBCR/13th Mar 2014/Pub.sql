@@ -1,4 +1,0 @@
-ALTER TABLE SGS_DPS_USER ADD (logged_in NUMBER(1,0) , migrated_account NUMBER(1,0) );
-
---ALTER TABLE SGS_DPS_USER DROP COLUMN logged_in;
---ALTER TABLE SGS_DPS_USER DROP COLUMN migrated_account;
